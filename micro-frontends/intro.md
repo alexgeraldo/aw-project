@@ -13,3 +13,6 @@ We chose a Business Oriented selection of Micro-Frontends as it facilitates the 
 # Micro-Frontends:
 
   - [Authentication and Account Management](authentication.md)
+  - [Catalog](catalog.md)
+  - [News and Statistics](news.md)
+  - [Generic Elementes (not a Micro-Frontend)](generic_elements.md)
