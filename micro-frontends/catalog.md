@@ -1,4 +1,4 @@
-# Catalog Micro-Frontend
+# Catalog Micro-Frontend ADR
 
 ## Context
 The catalog micro-frontend is responsible for numerous and various functionalities, all connected to the displaying of products 
