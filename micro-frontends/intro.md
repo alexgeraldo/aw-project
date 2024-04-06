@@ -10,6 +10,6 @@ As modern web development keeps evolving, the quest for scalable and maintainabl
 We chose a Business Oriented selection of Micro-Frontends as it facilitates the division of the teams assigned to each micro-frontend so each one can be treated as an internal business promoting internal motivation on the development of each micro-frontend. This approach as mentioned before as in mind the reusability and maintainability aspects, micro-frontends enable us to encapsulate functionality within units that can be reused across different parts of the application, minimising redundancy  and simplifying future maintenance and troubleshooting.
 
 
-#Micro-Frontends:
+# Micro-Frontends:
 
-  - []
+  - [https://github.com/alexgeraldo/aw-project/blob/main/micro-frontends/authentication.md](Authentication and account management)
