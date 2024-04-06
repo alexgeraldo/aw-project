@@ -12,4 +12,4 @@ We chose a Business Oriented selection of Micro-Frontends as it facilitates the 
 
 # Micro-Frontends:
 
-  - [https://github.com/alexgeraldo/aw-project/blob/main/micro-frontends/authentication.md](Authentication and account management)
+  - [Authentication and Account Management](authentication.md)
