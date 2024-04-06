@@ -33,6 +33,9 @@ Please note that these functionalities are distributed across the multiple views
   - Add feedback through 0/5 stars review
   - List saved products
 
+## Overview Diagram
+
+(add image)
 
 
 ## References
