@@ -26,5 +26,8 @@ We decided based on the listed drivers to aggregate all the views, components an
 
 ### Views, Components, FE Services
 
+<img src="../Assets/LoginViewR.png" alt="LoginView" />
+<img src="../Assets/ManagementViewR.png" alt="LoginView" />
+
 [More information on the Views, Components and FE Services, including tables, diagrams and other materials]
 
