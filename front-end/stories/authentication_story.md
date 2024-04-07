@@ -18,5 +18,5 @@
 </p>
 
 <p align="center">
-<img src="./assets/dark-light-sign-in.png#gh-dark-mode-only" alt="Authentication Story">
+<img src="./assets/dark-sign-in.png#gh-dark-mode-only" alt="Authentication Story">
 </p>
