@@ -15,9 +15,9 @@
   ### 3. Resolution: The app redirects the hero to the article page where he can read and find out if his product is safe.
 
 <p align="center">
-<img src="./assets/light-give-feedback.png#gh-light-mode-only" alt="Give Feedback Story">
+<img src="./assets/light-check-news.png#gh-light-mode-only" alt="Check News Story">
 </p>
 
 <p align="center">
-<img src="./assets/dark-give-feedback.png#gh-dark-mode-only" alt="Give Feedback Story">
+<img src="./assets/dark-check-news.png#gh-dark-mode-only" alt="Check News Story">
 </p>
