@@ -16,3 +16,19 @@ We chose a Business Oriented selection of Micro-Frontends as it facilitates the 
   - [Catalog](./micro-frontends/catalog.md)
   - [News and Statistics](./micro-frontends/news.md)
   - [Generic Elementes (not a Micro-Frontend)](./micro-frontends/generic_elements.md)
+
+
+# Stories:
+  - [An Animal Tale (Check Product Story)](./stories/check-product-story.md)
+  - [A Hero's Voice (Give Feedback Story)](./stories/give-feedback-story.md)
+  - [A Journey Through the Headlines (Check News Story)](./stories/check-news-story.md)
+  - [An Eye on Progress (Check Statistics Story)](./stories/check-statistics-story.md)
+  - [Though the Gateway (Authentication Story](./stories/authentication_story.md)
+
+
+# FE Orquestration:
+  
+
+# Narrative Arc:
+  - [QR Meat Narrative Arc](narrative-arc.md)
+  - [QR Meat Narrative Arc .svg (Light Version)](narrative-arc.md)
