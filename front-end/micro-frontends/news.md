@@ -30,14 +30,9 @@ The feature can be reused in other applications where having news dissemination 
 
 ### Views, Components, FE Services
 
+<img src="../Assets/NewsViewR.png" alt="NewsView">
+<img src="../Assets/ArticleViewR.png" alt="ArticleView">
+<img src="../Assets/StatisticsViewR.png" alt="StatisticsView">
+
 [More information on the Views, Components and FE Services, including tables, diagrams and other materials]
 
-### Functionalities
-
-Please note that these functionalities are distributed across the multiple views encapsulated by this micro-frontend.
-
-  - Highlight the most recent news article
-  - List recent news articles 
-  - Present selected article
-  - Showcase positive statistics data
-  - Showcase negative statistics data
