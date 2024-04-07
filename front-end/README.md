@@ -26,7 +26,9 @@ We chose a Business Oriented selection of Micro-Frontends as it facilitates the 
   - [Though the Gateway (Authentication Story)](./stories/authentication_story.md)
 
 
-# FE Orquestration:
+# Frontend Orquestration:
+  - [Catalog Frontend](./orquestration/catalog-orquestration.png)
+  - [News and Statistics Frontend](./orquestration/news-statistics-orquestration.png)
   
 
 # Narrative Arc:
