@@ -1,18 +1,15 @@
 # Catalog Micro-Frontend ADR
 
 ## Context
-The catalog micro-frontend is responsible for numerous and various functionalities, all connected to the displaying of products 
-and the respective supermarket selection.
+
+Catalog Micro-Frontend is the set of the views and components that are the core of QR Meat application. This micro-frontend makes a available the product catalog and all the functionality to manage and search supermarkets and respective products.
 
 ## Decision
 
-The decision to choose a catalog focused micro-frontend was business focused, but besides that it was intuitive since there are numerous 
-views on the QR meat app related to the displaying and listing products (catalog functionality). Some other functionalities like listing marketplaces, displaying products nutritional value and leaving a review while not necessarily associated with cataloging, should on our view be developed on par with them as they are connected, so we can ensure seamless user experience on this micro-frontend. Promoting a scalable solution with the possibility of later added funtionality for different scenarios outside the QRMeat application.
+The decision to create this Micro-Frontend base on decomposition by "Business Capabilities" was driven by the potential to build this micro-frontend as generic as possible in order to facilitate its reuse for other applications than meat products and also the possibility of selling it to third-parties interested in building an app with such features and capabilities.
 
 ## Consequences 
 Developing a Catalog focused micro-frontend involves several benefits, but not without some drawbacks. (list drawbacks)
-
-
 
 ## Functionalities
 

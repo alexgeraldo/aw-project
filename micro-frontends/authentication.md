@@ -6,17 +6,11 @@
 
 ## Context
 
-The QRMeat project aims to develop a comprehensive application prototype tailored to the meat industry, catering to various functionalities crucial for both consumers and industry professionals. The primary focus is on providing users with a seamless experience in accessing information about markets, types of meat, and detailed product insights encompassing nutrition data and the comprehensive history of the product, tracing back to the creation of the animal it originated from.
-
-Additionally the QRMeat app also provides users with news related to the meat industry and provides statistical information concerning statistical metrics such as sustainability and animal well being.
-
-The Authentication Micro-Frontend is one important component that is dedicated to user authentication, managing application preferences, and handling user account settings.
+Authentication Micro-Frontend is the set of the views and components enabling users to authenticate their accounts, alongside with account management and app preference capabilities.
 
 ## Decision
 
-Decomposing the QRMeat prototype using Business Oriented Decomposition was decided to make authentication and user-related features a single micro-frontend inside the application.
-
-This decision aims to promote reusability and streamline development processes by creating a more generic solution that can be easily integrated into multiple applications. By centralizing customer data management and authentication processes, the project not only enhances scalability but also lays the groundwork for future expansions into diverse domains beyond the meat industry and the QRMeat application.
+The decision to create this Micro-Frontend based on decomposition by "Business Capabilities" was driven by the potential to monetize authentication capabilities for third-party sales and facilitate reuse of views and components in future projects. Additionally, centralizing customer-related services offers the opportunity to establish a unified company client database, like what is done by major tech companies like Google, Amazon, and Facebook.
 
 ## Consequences
 
