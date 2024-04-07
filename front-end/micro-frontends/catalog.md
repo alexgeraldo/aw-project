@@ -26,26 +26,16 @@ We decided based on the listed drivers to aggregate all the views, components an
 
 ### Views, Components, FE Services
 
+
+<img src="../Assets/LandingViewR.png" alt="LandingView" />
+<img src="../Assets/ProductCategoryViewR.png" alt="ProductCategoryView" />
+<img src="../Assets/ProductListViewR.png" alt="ProductListView" />
+<img src="../Assets/ProductViewR.png" alt="ProductView" />
+<img src="../Assets/ProductReviewsViewR.png" alt="ProductReviewsView" />
+
 [More information on the Views, Components and FE Services, including tables, diagrams and other materials]
 
-### Functionalities
 
-Please note that these functionalities are distributed across the multiple views encapsulated by this micro-frontend.
-
-  - Select store
-  - Present a Featured Products list
-  - Present different product categories for the selected supermarket
-  - Present Featured Products on selected category
-  - List products on the selected category
-  - Present status with selected store and category
-  - Showcase product image
-  - Showcase product information
-  - Showcase detailed product information
-  - Showcase product feedback
-  - Present feedback list
-  - Save product
-  - Add feedback through 0/5 stars review
-  - List saved products
 
 
 
