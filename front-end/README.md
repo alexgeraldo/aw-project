@@ -19,10 +19,10 @@ We chose a Business Oriented selection of micro-frontends as it facilitates the 
 
 
 # Stories:
-  - [An Animal Tale (Check Product Story)](./stories/check-product-story.md)
-  - [A Hero's Voice (Give Feedback Story)](./stories/give-feedback-story.md)
-  - [A Journey Through the Headlines (Check News Story)](./stories/check-news-story.md)
-  - [An Eye on Progress (Check Statistics Story)](./stories/check-statistics-story.md)
+  - [An Animal Tale (Check Product Story)](./stories/check_product_story.md)
+  - [A Hero's Voice (Give Feedback Story)](./stories/give_feedback_story.md)
+  - [A Journey Through the Headlines (Check News Story)](./stories/check_news_story.md)
+  - [An Eye on Progress (Check Statistics Story)](./stories/check_statistics_story.md)
   - [Through the Gateway (Authentication Story)](./stories/authentication_story.md)
 
 
