@@ -32,6 +32,7 @@ We decided based on the listed drivers to aggregate all the views, components an
 <img src="../Assets/ProductListViewR.png" alt="ProductListView" />
 <img src="../Assets/ProductViewR.png" alt="ProductView" />
 <img src="../Assets/ProductReviewsViewR.png" alt="ProductReviewsView" />
+<img src="../Assets/SavedProductsViewR.png" alt="SavedProductsView" />
 
 [More information on the Views, Components and FE Services, including tables, diagrams and other materials]
 
