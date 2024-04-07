@@ -5,7 +5,7 @@
 ## Decision
 
 ## Story Arc (3 Acts)
-
+  ### Goal: Give feedback on a product
   ### 1. Setup: The hero tried a product and wants to leave a review.
   ### 2. Confrontation: The hero opens his QR Meat app and:
   #### Through saved products:
