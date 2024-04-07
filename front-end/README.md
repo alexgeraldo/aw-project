@@ -23,7 +23,7 @@ We chose a Business Oriented selection of Micro-Frontends as it facilitates the 
   - [A Hero's Voice (Give Feedback Story)](./stories/give-feedback-story.md)
   - [A Journey Through the Headlines (Check News Story)](./stories/check-news-story.md)
   - [An Eye on Progress (Check Statistics Story)](./stories/check-statistics-story.md)
-  - [Though the Gateway (Authentication Story](./stories/authentication_story.md)
+  - [Though the Gateway (Authentication Story)](./stories/authentication_story.md)
 
 
 # FE Orquestration:
@@ -31,5 +31,5 @@ We chose a Business Oriented selection of Micro-Frontends as it facilitates the 
 
 # Narrative Arc:
   - [QR Meat Narrative Arc](narrative-arc.png)
-  - [QR Meat Narrative Arc .svg (Light Version)](narrative-arc.svg)
+  - [QR Meat Narrative Arc .svg (Light Download Version)](narrative-arc.svg)
 
