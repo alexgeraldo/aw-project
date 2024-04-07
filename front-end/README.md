@@ -30,6 +30,6 @@ We chose a Business Oriented selection of Micro-Frontends as it facilitates the 
   
 
 # Narrative Arc:
-  - [QR Meat Narrative Arc](narrative-arc.md)
-  - [QR Meat Narrative Arc .svg (Light Version)](narrative-arc.md)
+  - [QR Meat Narrative Arc](narrative-arc.png)
+  - [QR Meat Narrative Arc .svg (Light Version)](:/narrative-arc.svg)
 
