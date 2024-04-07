@@ -27,12 +27,12 @@ We decided based on the listed drivers to aggregate all the views, components an
 ### Views, Components, FE Services
 
 
-<img src="../assets/LandingViewR.png" alt="LandingView" />
-<img src="../assets/ProductCategoryViewR.png" alt="ProductCategoryView" />
-<img src="../assets/ProductListViewR.png" alt="ProductListView" />
-<img src="../assets/ProductViewR.png" alt="ProductView" />
-<img src="../assets/ProductReviewsViewR.png" alt="ProductReviewsView" />
-<img src="../assets/SavedProductsViewR.png" alt="SavedProductsView" />
+<img src="./assets/LandingViewR.png" alt="LandingView" />
+<img src="./assets/ProductCategoryViewR.png" alt="ProductCategoryView" />
+<img src="./assets/ProductListViewR.png" alt="ProductListView" />
+<img src="./assets/ProductViewR.png" alt="ProductView" />
+<img src="./assets/ProductReviewsViewR.png" alt="ProductReviewsView" />
+<img src="./assets/SavedProductsViewR.png" alt="SavedProductsView" />
 
 [More information on the Views, Components and FE Services, including tables, diagrams and other materials]
 

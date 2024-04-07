@@ -30,9 +30,9 @@ The feature can be reused in other applications where having news dissemination 
 
 ### Views, Components, FE Services
 
-<img src="../assets/NewsViewR.png" alt="NewsView">
-<img src="../assets/ArticleViewR.png" alt="ArticleView">
-<img src="../assets/StatisticsViewR.png" alt="StatisticsView">
+<img src="./assets/NewsViewR.png" alt="NewsView">
+<img src="./assets/ArticleViewR.png" alt="ArticleView">
+<img src="./assets/StatisticsViewR.png" alt="StatisticsView">
 
 [More information on the Views, Components and FE Services, including tables, diagrams and other materials]
 
