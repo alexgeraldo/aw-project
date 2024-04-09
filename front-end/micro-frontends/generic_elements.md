@@ -1,5 +1,9 @@
 # Generic Elements ADR
 
+## Status
+
+[Proposed]
+
 ## Context
 
 Please note that this section is not a micro-frontend.
