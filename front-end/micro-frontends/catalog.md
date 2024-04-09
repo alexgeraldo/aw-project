@@ -20,9 +20,6 @@ Our small team is developing a new meat related app called QR Meat that allows t
 
 We decided based on the listed drivers to aggregate all the views, components and services related to product catalog and supermarkets under a single "Catalog Micro-Frontend". This way there will be a team dedicated to support and develop the features related with this frontend and this will promote specially flexibility, maintainability and reusability. This micro-frontend  can be reused in future projects (related to other types of products, not meat) or can be sold as a standalone solution for third-parties.
 
-## More Information
-
-[More information paragraph if needed to say anythinh else.]
 
 ### Views, Components, FE Services
 
@@ -34,7 +31,6 @@ We decided based on the listed drivers to aggregate all the views, components an
 <img src="./assets/ProductReviewsViewR.png" alt="ProductReviewsView" />
 <img src="./assets/SavedProductsViewR.png" alt="SavedProductsView" />
 
-[More information on the Views, Components and FE Services, including tables, diagrams and other materials]
 
 
 
