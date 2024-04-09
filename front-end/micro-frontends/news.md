@@ -24,9 +24,6 @@ This side micro-frontend in the QR Meat works as a bonus feature for a small set
 
 The feature can be reused in other applications where having news dissemination is needed, but for this business capability as it is, we do not have a perspective of being a standalone solution.
 
-## More Information
-
-[More information paragraph if needed to say anythinh else.]
 
 ### Views, Components, FE Services
 
@@ -34,5 +31,4 @@ The feature can be reused in other applications where having news dissemination 
 <img src="./assets/ArticleViewR.png" alt="ArticleView">
 <img src="./assets/StatisticsViewR.png" alt="StatisticsView">
 
-[More information on the Views, Components and FE Services, including tables, diagrams and other materials]
 
