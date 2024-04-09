@@ -20,14 +20,9 @@ Our small team is developing a new meat related app called QR Meat that allows t
 
 We decided based on the listed drivers to aggregate all the views, components and services related to user authentication, management and preferences under a single "Authentication Micro-Frontend". This way there will be a team dedicated to support and develop the features related with this frontend and this will promote specially flexibility, maintainability and reusability. This way Authentication related features can be reused in future projects or can be sold as a standalone solution for third-parties. Also important to mention, that this way the authentication system can be centralized/reused for all the "company" apps and services.
 
-## More Information
-
-[More information paragraph if needed to say anythinh else.]
-
 ### Views, Components, FE Services
 
 <img src="./assets/LoginViewR.png" alt="LoginView" />
 <img src="./assets/ManagementViewR.png" alt="ManagementView" />
 
-[More information on the Views, Components and FE Services, including tables, diagrams and other materials]
 
