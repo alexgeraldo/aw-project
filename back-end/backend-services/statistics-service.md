@@ -12,4 +12,4 @@ Our small team is developing a new meat related app called QR Meat that allows t
 
 ## Rest API
 
-## Business Objects
+## Business Objects Interaction
