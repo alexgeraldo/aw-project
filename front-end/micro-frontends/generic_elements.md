@@ -12,7 +12,7 @@ This section is dedicated to components that were not found to be relevant enoug
 
 ## Decision
 
-(elaborate a bit about why we chose to encasulate these components here)
+This Generic Elements section is dedicated to components that were not found to be relevant enough to have a dedicated micro-frontend.
 
 ## Benefits
 
