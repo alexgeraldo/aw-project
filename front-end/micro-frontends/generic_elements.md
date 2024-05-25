@@ -8,7 +8,6 @@
 
 Please note that this section is not a micro-frontend.
 
-This section is dedicated to components that were not found to be relevant enough to have a dedicated micro-frontend.
 
 ## Decision
 
