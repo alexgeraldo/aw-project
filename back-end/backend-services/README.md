@@ -24,13 +24,19 @@ Our small team is developing a new meat related app called QR Meat that allows u
   - [Users Service](users-service.md)
 
 
-## Diagram
-
-<!-- Fazer o diagrama que mostra todos os BE Services a interagir uns com os outros -->
-
 
 ## Backend Services Table
 
 <img src="./assets/BEServicesTable.png" alt="Backend Services Table" />
 
+
+## Backend Services Diagram
+
+<p>
+<img src="./assets/BEServicesDiagram-dark.png#gh-dark-mode-only" alt="Backend Orchestration" />
+<p\>
+
+<p>
+<img src="./assets/BEServicesDiagram-light.png#gh-light-mode-only" alt="Backend Orchestration" />
+<p\>
 
