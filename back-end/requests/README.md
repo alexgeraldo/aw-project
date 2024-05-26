@@ -11,4 +11,4 @@ Pragmatic REST principles offer several advantages, particularly when it comes t
 
 ## QRMeat RESTful API
 
-<img src="./assets//REST-Table2.png" alt="QRMeat Rest API" />
+<img src="./assets//REST-Table.png" alt="QRMeat Rest API" />
