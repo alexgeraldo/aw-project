@@ -18,4 +18,9 @@ Recommendations are ...
 
 ## REST API
 
+<img src="../requests/assets/RecommendationsService.png" alt="REST Recommendations Service" />
+
 ## Business Objects Interaction
+
+
+<img src="../business-objects/assets/RecommendationsBOs-light.png" alt="Business Objects Interaction"  />

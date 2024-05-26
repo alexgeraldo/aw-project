@@ -16,4 +16,11 @@ This service is responsible for user registry/delete aswell as management of use
 
 Users are ...
 
+## REST API
+
+<img src="../requests/assets/UsersService.png" alt="REST Users Service" />
+
 ## Business Objects Interaction
+
+
+<img src="../business-objects/assets/UsersBOs-light.png" alt="Business Objects Interaction" />

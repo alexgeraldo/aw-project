@@ -18,4 +18,9 @@ Manages Products and their specific details, like nutritional values and sustain
 
 ## REST API
 
+<img src="../requests/assets/ProductService.png" alt="REST Product Service" />
+
 ## Business Objects Interaction
+
+
+<img src="../business-objects/assets/ProductBOs-light.png" alt="Business Objects Interaction"  />

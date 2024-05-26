@@ -16,6 +16,11 @@ This service is responsible for managing user Reviews.
 
 Reviews are a Star rating (1-5) assigned by users to a specific entity (Products on this case)
 
-## Rest API
+## REST API
+
+<img src="../requests/assets/ReviewsService.png" alt="REST Reviews Service" />
 
 ## Business Objects Interaction
+
+
+<img src="../business-objects/assets/ReviewsBOs-light.png" alt="Business Objects Interaction" />

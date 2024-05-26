@@ -18,4 +18,9 @@ Statistics are analytical data used by the application to fill out graphs and da
 
 ## REST API
 
+<img src="../requests/assets/StatisticsService.png" alt="REST Statistics Service" />
+
 ## Business Objects Interaction
+
+
+<img src="../business-objects/assets/StatisticsBOs-light.png" alt="Business Objects Interaction" />

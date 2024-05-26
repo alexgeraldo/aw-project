@@ -18,4 +18,9 @@ Manages News Articles that can be retrieved from relevant sources or posted from
 
 ## REST API
 
+<img src="../requests/assets/NewsService.png" alt="REST News Service" />
+
 ## Business Objects Interaction
+
+
+<img src="../business-objects/assets/NewsBOs-light.png" alt="Business Objects Interaction"  />

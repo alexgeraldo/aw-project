@@ -16,8 +16,11 @@ This service is responsible for user authentication and safety tokens validation
 
 Manages and validates safety tokens.
 
-
 ## REST API
 
+<img src="../requests/assets/AuthenticationService.png" alt="REST Authentication Service" />
 
 ## Business Objects Interaction
+
+
+<img src="../business-objects/assets/AuthenticationBOs-light.png" alt="Business Objects Interaction"  />

@@ -19,4 +19,9 @@ Manages the list of entities (Products) saved by the user.
 
 ## REST API
 
+<img src="../requests/assets/LikesService.png" alt="REST Likes Service" />
+
 ## Business Objects Interaction
+
+
+<img src="../business-objects/assets/LikesBOs-light.png" alt="Business Objects Interaction"  />

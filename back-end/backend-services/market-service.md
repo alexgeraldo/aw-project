@@ -18,4 +18,9 @@ Manages Markets, these are entities that represent physical markets containing r
 
 ## REST API
 
+<img src="../requests/assets/MarketService.png" alt="REST Market Service" />
+
 ## Business Objects Interaction
+
+
+<img src="../business-objects/assets/MarketBOs-light.png" alt="Business Objects Interaction"  />
