@@ -30,8 +30,7 @@ Our small team is developing a new meat related app called QR Meat that allows u
 
 
 ## Backend Services Table
-<!-- INSERIR A TABELA TASK 6 AQUI -->
-<!-- und dev -->
 
+<img src="./assets/BEServicesTable.png" alt="Backend Services Table" />
 
 
