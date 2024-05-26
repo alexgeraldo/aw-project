@@ -1,15 +1,19 @@
-# Users Backend Service ADR
+# Backend Users Service ADR
 
 ## Status
 
 [Proposed]
 
-## Context and Description
+## Context
 
-Our small team is developing a new meat related app called QR Meat that allows to check on meat products and related information. We need to decide on how we are going to divide the in terms of Micro-frontends to ensure requirements such as modularity, reusability, flexibility, testability and maintainability.
+The backend Users Service division, surged from the architectural principle of spliting the backend into business oriented services. 
+
+## Description
+
+This service is responsible for user registry/delete aswell as management of user data and password.
 
 ## Resources
 
-## Rest API
+Users are ...
 
 ## Business Objects Interaction

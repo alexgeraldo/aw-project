@@ -1,15 +1,22 @@
-# Likes Backend Service ADR
+# Backend Likes Service ADR
 
 ## Status
 
 [Proposed]
 
-## Context and Description
+## Context
 
-Our small team is developing a new meat related app called QR Meat that allows to check on meat products and related information. We need to decide on how we are going to divide the in terms of Micro-frontends to ensure requirements such as modularity, reusability, flexibility, testability and maintainability.
+The backend Likes Service division, surged from the architectural principle of spliting the backend into business oriented services. 
+
+## Description
+
+This service is responsible for storing the saved entities (on this case Products) of a user in the for of likes
 
 ## Resources
 
-## Rest API
+Manages the list of entities (Products) saved by the user.
+
+
+## REST API
 
 ## Business Objects Interaction

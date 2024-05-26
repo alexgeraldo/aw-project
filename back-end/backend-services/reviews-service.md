@@ -1,14 +1,20 @@
-# Reviews Backend Service ADR
+# Backend Reviews Service ADR
 
 ## Status
 
 [Proposed]
 
-## Context and Description
+## Context
 
-Our small team is developing a new meat related app called QR Meat that allows to check on meat products and related information. We need to decide on how we are going to divide the in terms of Micro-frontends to ensure requirements such as modularity, reusability, flexibility, testability and maintainability.
+The backend Reviews Service division, surged from the architectural principle of spliting the backend into business oriented services. 
+
+## Description
+
+This service is responsible for managing user Reviews.
 
 ## Resources
+
+Reviews are a Star rating (1-5) assigned by users to a specific entity (Products on this case)
 
 ## Rest API
 

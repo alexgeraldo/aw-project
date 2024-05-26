@@ -1,15 +1,21 @@
-# Statistics Backend Service ADR
+# Backend Statistics Service ADR
 
 ## Status
 
 [Proposed]
 
-## Context and Description
+## Context
 
-Our small team is developing a new meat related app called QR Meat that allows to check on meat products and related information. We need to decide on how we are going to divide the in terms of Micro-frontends to ensure requirements such as modularity, reusability, flexibility, testability and maintainability.
+The backend Statistics Service division, surged from the architectural principle of spliting the backend into business oriented services. 
+
+## Description
+
+This service is responsible for using yearly meat industry data to calculate sustainability statistics.
 
 ## Resources
 
-## Rest API
+Statistics are analytical data used by the application to fill out graphs and data according to yearly sustainability data of the meat industry.
+
+## REST API
 
 ## Business Objects Interaction

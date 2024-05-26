@@ -1,15 +1,21 @@
-# News Backend Service ADR
+# Backend News Service ADR
 
 ## Status
 
 [Proposed]
 
-## Context and Description
+## Context
 
-Our small team is developing a new meat related app called QR Meat that allows to check on meat products and related information. We need to decide on how we are going to divide the in terms of Micro-frontends to ensure requirements such as modularity, reusability, flexibility, testability and maintainability.
+The backend News Service division, surged from the architectural principle of spliting the backend into business oriented services. 
+
+## Description
+
+This service is responsible for managing News Articles.
 
 ## Resources
 
-## Rest API
+Manages News Articles that can be retrieved from relevant sources or posted from the business side of the application.
+
+## REST API
 
 ## Business Objects Interaction

@@ -1,15 +1,21 @@
-# Recommendations Backend Service ADR
+# Backend Recommendations Service ADR
 
 ## Status
 
 [Proposed]
 
-## Context and Description
+## Context
 
-Our small team is developing a new meat related app called QR Meat that allows to check on meat products and related information. We need to decide on how we are going to divide the in terms of Micro-frontends to ensure requirements such as modularity, reusability, flexibility, testability and maintainability.
+The backend Recommendations Service division, surged from the architectural principle of spliting the backend into business oriented services. 
+
+## Description
+
+This service implements recommendation systems for recommending specific entities, on this application it's used to recommend Products and News Articles.
 
 ## Resources
 
-## Rest API
+Recommendations are ...
+
+## REST API
 
 ## Business Objects Interaction
