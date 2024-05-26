@@ -23,4 +23,4 @@ Users are ...
 ## Business Objects Interaction
 
 
-<img src="../business-objects/assets/UsersBOs-light.png" alt="Business Objects Interaction" />
+<img src="../business-objects/assets/UsersBOs.png" alt="Business Objects Interaction" />

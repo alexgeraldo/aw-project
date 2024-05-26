@@ -23,4 +23,4 @@ Recommendations are ...
 ## Business Objects Interaction
 
 
-<img src="../business-objects/assets/RecommendationsBOs-light.png" alt="Business Objects Interaction"  />
+<img src="../business-objects/assets/RecommendationsBOs.png" alt="Business Objects Interaction"  />

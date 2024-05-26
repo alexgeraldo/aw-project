@@ -23,4 +23,4 @@ Manages Products and their specific details, like nutritional values and sustain
 ## Business Objects Interaction
 
 
-<img src="../business-objects/assets/ProductBOs-light.png" alt="Business Objects Interaction"  />
+<img src="../business-objects/assets/ProductBOs.png" alt="Business Objects Interaction"  />

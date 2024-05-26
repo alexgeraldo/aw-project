@@ -23,4 +23,4 @@ Manages and validates safety tokens.
 ## Business Objects Interaction
 
 
-<img src="../business-objects/assets/AuthenticationBOs-light.png" alt="Business Objects Interaction"  />
+<img src="../business-objects/assets/AuthenticationBOs.png" alt="Business Objects Interaction"  />

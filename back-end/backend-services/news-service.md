@@ -23,4 +23,4 @@ Manages News Articles that can be retrieved from relevant sources or posted from
 ## Business Objects Interaction
 
 
-<img src="../business-objects/assets/NewsBOs-light.png" alt="Business Objects Interaction"  />
+<img src="../business-objects/assets/NewsBOs.png" alt="Business Objects Interaction"  />

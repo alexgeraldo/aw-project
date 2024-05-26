@@ -21,6 +21,6 @@ Following the criteria described above we came up with 6 crucial Business Object
 The following table highlights the intereactions of Business Objects with Backend Services
 
 <p>
-<img src="./assets/FullBOsTable-light.png" alt="Full BOs Table" />
+<img src="./assets/FullTableBOs.png" alt="Full BOs Table" />
 <p\>
 

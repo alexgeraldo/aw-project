@@ -23,4 +23,4 @@ Reviews are a Star rating (1-5) assigned by users to a specific entity (Products
 ## Business Objects Interaction
 
 
-<img src="../business-objects/assets/ReviewsBOs-light.png" alt="Business Objects Interaction" />
+<img src="../business-objects/assets/ReviewsBOs.png" alt="Business Objects Interaction" />

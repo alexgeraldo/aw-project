@@ -24,4 +24,4 @@ Manages the list of entities (Products) saved by the user.
 ## Business Objects Interaction
 
 
-<img src="../business-objects/assets/LikesBOs-light.png" alt="Business Objects Interaction"  />
+<img src="../business-objects/assets/LikesBOs.png" alt="Business Objects Interaction"  />

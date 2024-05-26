@@ -23,4 +23,4 @@ Manages Markets, these are entities that represent physical markets containing r
 ## Business Objects Interaction
 
 
-<img src="../business-objects/assets/MarketBOs-light.png" alt="Business Objects Interaction"  />
+<img src="../business-objects/assets/MarketBOs.png" alt="Business Objects Interaction"  />
