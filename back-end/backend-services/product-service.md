@@ -24,3 +24,7 @@ Manages Products and their specific details, like nutritional values and sustain
 
 
 <img src="../business-objects/assets/ProductBOs.png" alt="Business Objects Interaction"  />
+
+
+#### [Back to Backend Services](./README.md)
+#### [Back to Front Page](../README.md)

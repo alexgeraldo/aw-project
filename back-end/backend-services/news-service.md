@@ -24,3 +24,7 @@ Manages News Articles that can be retrieved from relevant sources or posted from
 
 
 <img src="../business-objects/assets/NewsBOs.png" alt="Business Objects Interaction"  />
+
+
+#### [Back to Backend Services](./README.md)
+#### [Back to Front Page](../README.md)

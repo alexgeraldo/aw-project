@@ -12,9 +12,11 @@ The backend Users Service division, surged from the architectural principle of s
 
 This service is responsible for user registry/delete aswell as management of user data and password.
 
+
+
 ## Resources
 
-Users are ...
+Users are ... HELP
 
 ## REST API
 
@@ -24,3 +26,7 @@ Users are ...
 
 
 <img src="../business-objects/assets/UsersBOs.png" alt="Business Objects Interaction" />
+
+
+#### [Back to Backend Services](./README.md)
+#### [Back to Front Page](../README.md)

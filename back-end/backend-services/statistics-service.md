@@ -24,3 +24,7 @@ Statistics are analytical data used by the application to fill out graphs and da
 
 
 <img src="../business-objects/assets/StatisticsBOs.png" alt="Business Objects Interaction" />
+
+
+#### [Back to Backend Services](./README.md)
+#### [Back to Front Page](../README.md)
