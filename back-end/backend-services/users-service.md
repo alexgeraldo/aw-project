@@ -12,11 +12,9 @@ The backend Users Service division, surged from the architectural principle of s
 
 This service is responsible for user registry/delete aswell as management of user data and password.
 
-
-
 ## Resources
 
-Users are ... HELP
+Users are objects that hold user's data and activities within the application for example login credentials and session tokens.
 
 ## REST API
 
