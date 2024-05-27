@@ -36,3 +36,9 @@ We chose a Business Oriented selection of micro-frontends as it facilitates the 
   - [QR Meat Narrative Arc](narrative-arc.png)
   - [QR Meat Narrative Arc .svg](narrative-arc.svg)
 
+
+
+
+
+  #### [Back to Repository Menu](../README.md)
+
