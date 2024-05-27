@@ -33,16 +33,16 @@ In developing QRMeat, we prioritized decisions that promoted a modular and maint
   - [Authentication Service API](./requests/AuthenticationService-API.md)
   - [Users Service API](./requests/UsersService-API.md)
 
-# Backend Services Data (Business Objects)
+# Business Objects (Backend Services Data)
    #### [Full Page Here](./business-objects/README.md)
 
     (FALTA HIPERLINKS PARA TABELAS COM BOs DATA)
-  - [[Market]]()
-  - [[Product]]()
-  - [[Review]]()
-  - [[Article]]()
-  - [[Statistics]]()
-  - [[User]]()
+  - [[Market]](./business-objects/MarketBO.md)
+  - [[Product]](./business-objects/ProductBO.md)
+  - [[Review]](./business-objects/ReviewBO.md)
+  - [[Article]](./business-objects/ArticleBO.md)
+  - [[Statistics]](./business-objects/StatisticsBO.md)
+  - [[User]](./business-objects/UserBO.md)
 
 
 # Backend Orchestration
