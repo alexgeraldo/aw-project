@@ -1,0 +1,811 @@
+openapi: 3.0.0
+info:
+  title: QRMeat API
+  description: REST API for QRMeat application.
+  version: 1.0.0
+paths:
+  # MARKET MANAGEMENT SERVICE ENDPOINTS
+  /markets/:
+    get:
+      summary: Get the list of markets
+      tags:
+        - Markets
+      responses:
+        200:
+          description: A list of markets
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Market"
+    post:
+      summary: Add a new market
+      tags:
+        - Catalog
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Market"
+        required: true
+      responses:
+        200:
+          description: Market information added successfully
+  /markets/{market_id}:
+    get:
+      summary: Get data from a specific market
+      tags:
+        - Markets
+      parameters:
+        - name: market_id
+          in: path
+          required: true
+          description: The id of the market to retrieve
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Market information
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Market"
+    put:
+      summary: Update an existing market
+      tags:
+        - Catalog
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Market"
+        required: true
+      parameters:
+        - name: market_id
+          in: path
+          required: true
+          description: The id of the market to update
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Market information updated successfully
+    delete:
+      summary: Delete a given market
+      tags:
+        - Catalog
+      parameters:
+        - name: market_id
+          in: path
+          required: true
+          description: The id of the market to delete
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Market deleted successfully
+  # PRODUCT MANAGEMENT SERVICE ENDPOINTS
+  /products/market/{market_id}/:
+    get:
+      summary: Get a list of products from a market
+      tags:
+        - Products
+      parameters:
+        - name: market_id
+          in: path
+          required: true
+          description: The id of the market the products belong to
+          schema:
+            type: integer
+      responses:
+        200:
+          description: A list of products of a given market
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Product"
+    post:
+      summary: Add a new product to the market
+      tags:
+        - Products
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Product"
+        required: true
+      parameters:
+        - name: market_id
+          in: path
+          required: true
+          description: The id of the market to add the product
+          schema:
+            type: integer
+      responses:
+        200:
+          description: The product added successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+  /products/market/{market_id}/category/{category}/:
+    get:
+      summary: Get a list of products from a market specific category
+      tags:
+        - Products
+      parameters:
+        - name: market_id
+          in: path
+          required: true
+          description: The id of the market the products belong to
+          schema:
+            type: integer
+        - name: category
+          in: path
+          required: true
+          description: The name of the category the products belong to
+          schema:
+            type: integer
+      responses:
+        200:
+          description: A list of products of a given market specific category
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Product"
+  /products/{product_id}/:
+    get:
+      summary: Get informations on a Product
+      tags:
+        - Products
+      parameters:
+        - name: product_id
+          in: path
+          required: true
+          description: The id of the product to retrieve
+          schema:
+            type: integer
+      responses:
+        200:
+          description: The product retrieved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+    put:
+      summary: Update an existing Product
+      tags:
+        - Products
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Product"
+        required: true
+      parameters:
+        - name: product_id
+          in: path
+          required: true
+          description: The id of the product to update
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Product updated successfully
+    delete:
+      summary: Delete an existing product
+      tags:
+        - Products
+      parameters:
+        - name: product_id
+          in: path
+          required: true
+          description: The id of the product to delete
+          schema:
+            type: integer
+      responses:
+        200:
+          description: The product was successfully deleted
+  # RECOMMENDATION SERVICE ENDPOINTS
+  /recommendations/products/:
+    get:
+      summary: Get a suggestion list of products
+      tags:
+        - Recommendations
+      responses:
+        200:
+          description: A list with suggestion of products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Product"
+  /recommendations/market/{market_id}/products/:
+    get:
+      summary: Get a suggestion list of products for a given market
+      tags:
+        - Recommendations
+      parameters:
+        - name: market_id
+          in: path
+          required: true
+          description: The id of the market the products belong to
+          schema:
+            type: integer
+      responses:
+        200:
+          description: A list with suggestion of products for a market
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Product"
+  /recommendations/news:
+    get:
+      summary: Get a suggestion list of news
+      tags:
+        - Recommendations
+      responses:
+        200:
+          description: A list with suggestion of news
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Article"
+  # REVIEWS MANAGEMENT SERVICE ENDPOINTS
+  /reviews/product/{product_id}/:
+    get:
+      summary: Get a list of a product reviews
+      tags:
+        - Reviews
+      parameters:
+        - name: product_id
+          in: path
+          required: true
+          description: The id of the product the reviews belong to
+          schema:
+            type: integer
+      responses:
+        200:
+          description: A list of reviews of a given product
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Review"
+    put:
+      summary: Insert/Update a user review on a product
+      tags:
+        - Products
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Review"
+        required: true
+      parameters:
+        - name: product_id
+          in: path
+          required: true
+          description: The id of the product to review
+          schema:
+            type: integer
+        - name: session_token
+          in: header
+          required: true
+          description: Session token of the user
+          schema:
+            type: string
+      responses:
+        200:
+          description: Review inserted/updated successfully.
+  /reviews/{product_id}/score:
+    get:
+      summary: Get a star score for the requested product
+      tags:
+        - Reviews
+      parameters:
+        - name: product_id
+          in: path
+          required: true
+          description: The id of the product the score belong to
+          schema:
+            type: integer
+      responses:
+        200:
+          description: A list of reviews of a given product
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  score:
+                    type: integer
+  /reviews/{review_id}/:
+    get:
+      summary: Get data from a specific review
+      tags:
+        - Reviews
+      parameters:
+        - name: review_id
+          in: path
+          required: true
+          description: The id of the review to retrieve
+          schema:
+            type: integer
+      responses:
+        200:
+          description: The review retrieved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Review"
+    delete:
+      summary: Delete a given review
+      tags:
+        - Reviews
+      parameters:
+        - name: review_id
+          in: path
+          required: true
+          description: The id of the review to delete
+          schema:
+            type: integer
+      responses:
+        200:
+          description: The review has been successfully deleted
+  # LIKES SERVICE ENDPOINTS
+  /likes/{user_id}/:
+    get:
+      summary: Get a list of product liked/saved by the user
+      tags:
+        - Likes
+      parameters:
+        - name: user_id
+          in: path
+          required: true
+          description: The id of the user which liked products are wanted
+          schema:
+            type: integer
+      responses:
+        200:
+          description: A list of reviews of a given product
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Product"
+  /likes/{user_id}/product/{product_id}/:
+    post:
+      summary: Add a given product to the user liked
+      tags:
+        - Likes
+      parameters:
+        - name: user_id
+          in: path
+          required: true
+          description: The id of the user which liked products to add
+          schema:
+            type: integer
+        - name: product_id
+          in: path
+          required: true
+          description: The id of the product to be added
+          schema:
+            type: integer
+      responses:
+        200:
+          description: The product added successfully
+    delete:
+      summary: Deletes a given product from liked list
+      tags:
+        - Likes
+      parameters:
+        - name: user_id
+          in: path
+          required: true
+          description: The id of the user which liked products belong to
+          schema:
+            type: integer
+        - name: product_id
+          in: path
+          required: true
+          description: The id of the product to be deleted
+          schema:
+            type: integer
+      responses:
+        200:
+          description: The product deleted successfully
+  # NEWS SERVICE ENDPOINTS
+  /news/:
+    get:
+      summary: Get a list of the latest news
+      tags:
+        - News
+      responses:
+        200:
+          description: A list with the latest articles
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Article"
+    post:
+      summary: Add a new article
+      tags:
+        - News
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Article"
+        required: true
+      responses:
+        200:
+          description: Article inserted successfully
+  /news/{article_id}/:
+    get:
+      summary: Get a specific article
+      tags:
+        - News
+      parameters:
+        - name: article_id
+          in: path
+          required: true
+          description: The id of the article
+          schema:
+            type: integer
+      responses:
+        200:
+          description: The requested article
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Article"
+    put:
+      summary: Update a specific article
+      tags:
+        - News
+      parameters:
+        - name: article_id
+          in: path
+          required: true
+          description: The id of the article
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Article updated successfully
+    delete:
+      summary: Delete a specific article
+      tags:
+        - News
+      parameters:
+        - name: article_id
+          in: path
+          required: true
+          description: The id of the article
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Article deleted successfully
+  # STATISTICS ENDPOINTS
+  /stats/:
+    get:
+      summary: Get positive and negative stats
+      description: Positive and negative extracted from the yearly products data
+      tags:
+        - Statistics
+      responses:
+        200:
+          description: The positive and negative stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Statistics"
+  # AUTHENTICATION SERVICE ENDPOINTS
+  /auth/login/:
+    post:
+      summary: Login user
+      tags:
+        - Auth
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  description: User email
+                password:
+                  type: string
+                  description: User password
+        required: true
+      responses:
+        200:
+          description: User logged in successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session_token:
+                    type: string
+                    description: Session token to use in the requests
+                  refresh_token:
+                    type: string
+                    description: Refresh token to extend lifetime of session tokens
+  /auth/verify/:
+    post:
+      summary: Verify session token
+      tags:
+        - Auth
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                session_token:
+                  type: string
+                  description: Session token to verify
+        required: true
+      responses:
+        200:
+          description: Token is valid
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  valid:
+                    type: boolean
+                    description: Field saying if token valid or not
+  /auth/logout/:
+    post:
+      summary: Logout user
+      tags:
+        - Auth
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                refresh_token:
+                  type: string
+                  description: Refresh token to release all tokens
+        required: true
+      responses:
+        200:
+          description: User logged out successfully
+  # USER MANAGEMENT SERVICE ENDPOINTS
+  /users/register/:
+    post:
+      summary: Register a new user
+      tags:
+        - Users
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  description: User email
+                password:
+                  type: string
+                  description: User password
+        required: true
+      responses:
+        200:
+          description: User registered successfully
+  /users/{user_id}/profile/:
+    get:
+      summary: Get user profile
+      tags:
+        - Users
+      parameters:
+        - name: user_id
+          in: path
+          required: true
+          description: The id of the user which liked products to add
+          schema:
+            type: integer
+        - name: session_token
+          in: header
+          required: true
+          description: Session token of the user
+          schema:
+            type: string
+      responses:
+        200:
+          description: User profile retrieved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+    put:
+      summary: Update user profile
+      tags:
+        - Users
+      parameters:
+        - name: session_token
+          in: header
+          required: true
+          description: Session token of the user
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/User"
+        required: true
+      responses:
+        200:
+          description: User profile updated successfully
+components:
+  schemas:
+    Market:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: Unique identifier of the Market
+        name:
+          type: string
+          description: Name of the Market establishment
+        address:
+          type: string
+          description: Address location of the Market
+        categories:
+          type: array
+          description: Section categories in the respective market
+    Product:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: Unique identifier of the Product
+        title:
+          type: string
+          description: Product title
+        price:
+          type: number
+          description: Floating value representing the price of the product
+        price_unit:
+          type: string
+          description: Unit of the price value eg. €, €/Kg, etc
+        category:
+          type: string
+          description: Section category the product belongs to eg. Red Meat
+        market_id:
+          type: integer
+          description: Id of the market a product belongs to
+        image:
+          type: string
+          description: Smaller image of the product
+        featured_image:
+          type: string
+          description: Larger well produced image with the product
+        producer:
+          type: string
+          description: Product producer description
+        origin:
+          type: string
+          description: Location identification from where product came from
+        gender:
+          type: string
+          description: Gender of the animal
+        age:
+          type: integer
+          description: Age of the animal
+        breed:
+          type: string
+          description: Breed of the animal
+        food:
+          type: string
+          description: Type of food fed to the animal
+        tracking:
+          type: array
+          items:
+            type: string
+          description: Ordered list of locations where product traveled
+        life_details:
+          type: string
+          description: Additional life detail of the animal
+    Review:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: Id of the review
+        product_id:
+          type: integer
+          description: Id of the reviewed product
+        user_name:
+          type: string
+          description: Name of the user
+        star_rating:
+          type: integer
+          description: 1-5 start rating
+    Article:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: The Id of the article
+        title:
+          type: string
+          description: Title of the article
+        featured_image:
+          type: string
+          description: URL to the featured imaged of the article
+        source:
+          type: string
+          description: Source of the information of the article (typically other news outlets)
+        date:
+          type: integer
+          description: A timestamp with the date of the article
+        content:
+          type: string
+          description: Body content of the article
+        author:
+          type: string
+          description: Article author name
+    Statistics:
+      type: object
+      properties:
+        years:
+          type: array
+          items:
+            type: integer
+          description: A list of the year with Statistics available
+        positive_stats:
+          type: array
+          items:
+            type: object
+          description: A list objects with positive stats
+        negative_stats:
+          type: array
+          items:
+            type: object
+          description: A list objects with positive stats
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: User unique identifier
+        email:
+          type: string
+          description: User email address
+        first_name:
+          type: string
+          description: User first name
+        last_name:
+          type: string
+          description: User last name
+        date_of_birth:
+          type: string
+          format: date
+          description: User birth date
+        profile_image:
+          type: string
+          description: Profile image binary data
