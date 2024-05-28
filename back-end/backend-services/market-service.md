@@ -14,7 +14,7 @@ This service is responsible for Markets and their associated data.
 
 ## Resources
 
-Manages Markets, these are entities that represent physical markets containing relative information such as location, franchise, location, etc 
+Manages Markets, these are entities that represent physical markets containing relative information such as location, franchise, location, etc.
 
 ## REST API
 
