@@ -9,6 +9,9 @@ Pragmatic REST principles offer several advantages, particularly when it comes t
 - All operations on a single resource
 - Atomic operations, no saved context
 
+
+## QRMeat RESTful APIs
+
 - [Market Service API](MarketService-API.md)
 - [Product Service API](ProductService-API.md)
 - [Reviews Service API](ReviewsService-API.md)
@@ -19,7 +22,7 @@ Pragmatic REST principles offer several advantages, particularly when it comes t
 - [Authentication Service API](AuthenticationService-API.md)
 - [Users Service API](UsersService-API.md)
 
-## QRMeat RESTful APIs
+## Full Table APIs 
 
 <img src="./assets//REST-Table.png" alt="QRMeat Rest API" />
 
