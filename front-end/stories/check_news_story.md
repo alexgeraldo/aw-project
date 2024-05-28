@@ -31,10 +31,8 @@ Our hero is promptly redirected to the article where he can read and find out if
 
 ## Narrative Arc Diagram
 
-<p align="center">
-  <img src="./assets/light-check-news.png#gh-light-mode-only" alt="Check News Story">
+<p>
+  <img src="./assets/check-news.png" alt="Check News Story">
 </p>
 
-<p align="center">
-  <img src="./assets/dark-check-news.png#gh-dark-mode-only" alt="Check News Story">
-</p>
+#### [Back to Frontend](../README.md)

@@ -31,11 +31,9 @@ Our hero is promptly sent to the statistics page where he can se the latest info
 
 ## Narrative Arc Diagram
 
-<p align="center">
-  <img src="./assets/light-check-statistics.png#gh-light-mode-only" alt="Check Statistics Story">
+<p>
+  <img src="./assets/check-statistics.png" alt="Check Statistics Story">
 </p>
 
-<p align="center">
-  <img src="./assets/dark-check-statistics.png#gh-dark-mode-only" alt="Check Statistics Story">
-</p>
 
+#### [Back to Frontend](../README.md)

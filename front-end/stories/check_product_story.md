@@ -36,11 +36,9 @@ Our hero is promptly redirected to the product page where he can assess everythi
 
 ## Narrative Arc Diagram
 
-<p align="center">
-  <img src="./assets/light-check-product.png#gh-light-mode-only" alt="Check Product Story">
+<p>
+  <img src="./assets/check-product.png" alt="Check Product Story">
 </p>
 
-<p align="center">
-  <img src="./assets/dark-check-product.png#gh-dark-mode-only" alt="Check Product Story">
-</p>
+#### [Back to Frontend](../README.md)
 
