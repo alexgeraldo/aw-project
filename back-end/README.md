@@ -57,7 +57,7 @@ In developing QRMeat, we prioritized decisions that promoted a modular and maint
 
 # Full API Specification (Swagger file)
 
- #### [Here](./api-specification.yaml)
+ #### [[Open Swagger file Here]](./api-specification.yaml)
 
 
 
