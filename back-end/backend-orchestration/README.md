@@ -9,11 +9,11 @@ This is the workflow of inserting a review, we should ensure the validity of our
 
 ## Backend Orchestration Diagram
 <p align = "center ">
-<img src="./assets/BEOrchestration_dark.png#gh-dark-mode-only" alt="Backend Orchestration" />
+<img src="./assets//BE_Orchestration-dark.png#gh-dark-mode-only" alt="Backend Orchestration" />
 <p\>
 
 <p align = "center ">
-<img src="./assets/BEOrchestration_light.png#gh-light-mode-only" alt="Backend Orchestration" />
+<img src="./assets/BE_Orchestration-light.png#gh-light-mode-only" alt="Backend Orchestration" />
 <p\>
 
 #### [Back to Backend](../README.md)
