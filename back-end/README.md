@@ -47,11 +47,11 @@ In developing QRMeat, we prioritized decisions that promoted a modular and maint
 # Backend Orchestration
    #### [Full Page Here](./backend-orchestration/README.md)
 <p align = "center ">
-<img src="./backend-orchestration/assets/BEOrchestration-dark.png#gh-dark-mode-only" alt="Backend Orchestration" />
+<img src="./backend-orchestration/assets/BE_Orchestration-dark.png#gh-dark-mode-only" alt="Backend Orchestration" />
 <p\>
 
 <p align = "center ">
-<img src="./backend-orchestration/assets/BEOrchestration-light.png#gh-light-mode-only" alt="Backend Orchestration" />
+<img src="./backend-orchestration/assets//BE_Orchestration-light.png#gh-light-mode-only" alt="Backend Orchestration" />
 <p\>
 
 
