@@ -13,7 +13,7 @@ Our small team is developing a new meat related app called QR Meat that allows u
 
 
 ## Backend Services 
-  - [Auth Service](auth-service.md)
+  - [Authentication Service](authentication-service.md)
   - [Likes Service](likes-service.md)
   - [Market Service](market-service.md)
   - [News Service](news-service.md)
