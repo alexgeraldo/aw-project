@@ -1,6 +1,6 @@
 # Pragmatic REST
 
-Pragmatic REST principles offer several advantages, particularly when it comes to enhancing developer experience and flexibility, they prioritize ease of use, providing intuitive APIs with clear and comprehensive endpoints, promoting ease of use and reducing the learning curve for developers. Overall, Pragmatic REST creates user-friendly, secure, and efficient APIs, well-suited for modern application development.
+Pragmatic REST principles offer several advantages, particularly when it comes to enhancing developer experience and flexibility. They prioritize ease of use, providing intuitive APIs with clear and comprehensive endpoints, reducing the learning curve for developers. Overall, Pragmatic REST creates user-friendly, secure, and efficient APIs, well-suited for modern application development.
 
 ## Decision Drivers
 
