@@ -2,14 +2,14 @@
 
 ## Context
 
-Our small team is developing a new meat related app called QR Meat that allows users to check on meat products and their related information like nutritional and sustainability values. We had to decided how to organize and devide the backend tasks into business oriented services so we could promote modularity, reusability, flexibility, testability and maintainability. We came up with a total of 9 services that proved crutial for the seamless function of the application. 
+Our small team is developing a new meat-related app called QR Meat that allows users to check on meat products and their related information such as nutritional and sustainability values. We had to decide how to organize and divide the backend tasks into business-oriented services so we could promote modularity, reusability, flexibility, testability and maintainability. We came up with a total of 9 services that proved crucial for the seamless function of the application. 
 
 ## Decision Drivers
 
 - Dividing the overall app into business separated blocks, using decomposition by "Business Capabilities".
 - Maximize the ability to change the backend services without affecting other business areas, promoting modularity, flexibility and maintainability.
 - Facilitate testing by having development teams dedicated to specific business areas (services).
-- Promote services reusability in other projects/applications aswell as selling them as a standalone solution for third-parties.
+- Promote services reusability in other projects/applications as well as selling them as a standalone solution for third-parties.
 
 
 ## Backend Services 
