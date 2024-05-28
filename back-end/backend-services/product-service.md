@@ -10,7 +10,7 @@ The backend Product Service division, surged from the architectural principle of
 
 ## Description
 
-This service is responsible Products and their associated data.
+This service is responsible for Products and their associated data.
 
 ## Resources
 
