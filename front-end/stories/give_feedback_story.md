@@ -33,11 +33,7 @@ Our hero is promptly sent to the reviews page where he can rate from 1 to 5 star
 
 ## Narrative Arc Diagram
 
-<p align="center">
-  <img src="./assets/light-give-feedback.png#gh-light-mode-only" alt="Give Feedback Story">
-</p>
-
-<p align="center">
-  <img src="./assets/dark-give-feedback.png#gh-dark-mode-only" alt="Give Feedback Story">
+<p>
+  <img src="./assets/give-feedback.png" alt="Give Feedback Story">
 </p>
 

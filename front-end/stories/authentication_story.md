@@ -31,10 +31,9 @@ After confirmed the credentials our hero is redirected to the landing page as lo
 
 ## Narrative Arc Diagram
 
-<p align="center">
-  <img src="./assets/light-sign-in.png#gh-light-mode-only" alt="Authentication Story">
+<p>
+  <img src="./assets/sign-in.png" alt="Authentication Story">
 </p>
 
-<p align="center">
-  <img src="./assets/dark-sign-in.png#gh-dark-mode-only" alt="Authentication Story">
-</p>
+#### [Back to Frontend](../README.md)
+

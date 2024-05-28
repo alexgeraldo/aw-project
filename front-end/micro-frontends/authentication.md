@@ -26,3 +26,5 @@ We decided based on the listed drivers to aggregate all the views, components an
 <img src="./assets/ManagementViewR.png" alt="ManagementView" />
 
 
+#### [Back to Frontend](../README.md)
+

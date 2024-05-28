@@ -32,3 +32,4 @@ The feature can be reused in other applications where having news dissemination 
 <img src="./assets/StatisticsViewR.png" alt="StatisticsView">
 
 
+#### [Back to Frontend](../README.md)
