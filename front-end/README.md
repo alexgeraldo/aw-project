@@ -1,4 +1,5 @@
-# Introduction:
+# Frontend
+
 In the subject of Web Applications lectured by professor Pedro Antunes in the Faculty of Sciences of the University of Lisbon, students Nuno Marques and Alexandre Geraldo were challenged with developing a Frontend Blueprint for QRMeat, a mobile application. QRMeat’s key feature is enabling users to quickly access  information about meat products via QR codes, including sustainability, processing details, nutritional value and user feedback.
 
 # Decision:
@@ -34,4 +35,10 @@ We chose a Business Oriented selection of micro-frontends as it facilitates the 
 # Narrative Arc:
   - [QR Meat Narrative Arc](narrative-arc.png)
   - [QR Meat Narrative Arc .svg](narrative-arc.svg)
+
+
+
+
+
+  #### [Back to Repository Menu](../README.md)
 

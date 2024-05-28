@@ -14,7 +14,7 @@ This service is responsible for user registry/delete aswell as management of use
 
 ## Resources
 
-Users are ...
+Users are objects that hold user's data and activities within the application for example login credentials and session tokens.
 
 ## REST API
 
@@ -24,3 +24,7 @@ Users are ...
 
 
 <img src="../business-objects/assets/UsersBOs.png" alt="Business Objects Interaction" />
+
+
+#### [Back to Backend Services](./README.md)
+#### [Back to Backend](../README.md)

@@ -9,12 +9,12 @@ Defining the Business Objects (BOs) in web applications should focus on some spe
 ## Business Objects 
 Following the criteria described above we came up with 6 crucial Business Objects
 
-- [Market]
-- [Product]
-- [Review]
-- [Article]
-- [Statistics]
-- [User]
+- [Market](MarketBO.md)
+- [Product](ProductBO.md)
+- [Review](ReviewBO.md)
+- [Article](ArticleBO.md)
+- [Statistics](StatisticsBO.md)
+- [User](UserBO.md)
 
 ## Business Objects Table
 
@@ -24,3 +24,4 @@ The following table highlights the intereactions of Business Objects with Backen
 <img src="./assets/FullTableBOs.png" alt="Full BOs Table" />
 <p\>
 
+#### [Back to Backend](../README.md)
