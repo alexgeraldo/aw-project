@@ -36,7 +36,6 @@ In developing QRMeat, we prioritized decisions that promoted a modular and maint
 # Business Objects (Backend Services Data)
    #### [Full Page Here](./business-objects/README.md)
 
-    (FALTA HIPERLINKS PARA TABELAS COM BOs DATA)
   - [[Market]](./business-objects/MarketBO.md)
   - [[Product]](./business-objects/ProductBO.md)
   - [[Review]](./business-objects/ReviewBO.md)
