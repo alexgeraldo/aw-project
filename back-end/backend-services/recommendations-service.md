@@ -10,11 +10,11 @@ The backend Recommendations Service division, surged from the architectural prin
 
 ## Description
 
-This service implements recommendation systems for recommending specific entities, on this application it's used to recommend Products and News Articles.
+This service implements recommendation systems to recommend specific entities, on this application it's used for the recommendation of Products and News Articles.
 
 ## Resources
 
-Recommendations are ...
+Recommendations are used by the app to populate "Featured Products" sections and also provide "Featured" Articles.
 
 ## REST API
 
