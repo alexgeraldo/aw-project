@@ -10,7 +10,7 @@ The backend Authentication Service division, surged from the architectural princ
 
 ## Description
 
-This service is responsible for user authentication and safety tokens validation, aswell as validating tokens for other services.
+This service is responsible for user authentication and safety tokens validation, as well as validating tokens for other services.
 
 ## Resources
 
